@@ -25,6 +25,10 @@ menu.addEventListener('click', () => {
 })
 pledgeButtons.forEach(element => {
     element.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behaviour: 'smooth',
+        });
         pledgingPage.classList.add('show');
     })
 })
