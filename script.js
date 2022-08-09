@@ -15,6 +15,7 @@ const confirmedButtons = document.querySelectorAll('aside > section:nth-child(2)
 const confirmedPage = document.querySelector('aside > section:nth-child(1)');
 const pledgeText = document.querySelectorAll('aside > section:nth-child(2) div p:first-child');
 const inputs = document.querySelectorAll("aside > section:nth-child(2) input:first-child[name = 'pledge']");
+
 //DYNAMICALLY CHANGING THE DATA AND VALUES BASED ON VIEWPORTS AND EVENT LISTENERS
 progressBar.style.width = '50%';
 menu.addEventListener('click', () => {
