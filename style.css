@@ -287,6 +287,15 @@ aside > section:nth-child(1).show{
         padding: .7em;
     }
 }
+@media all and (max-width: 650px){
+    aside > section:nth-child(2).show{
+        display: flex;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
 @media all and (min-width: 650px){
     span.block{
         display: initial;
