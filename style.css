@@ -291,7 +291,7 @@ aside > section:nth-child(1).show{
     aside > section:nth-child(2).show{
         display: flex;
         position: absolute;
-        top: 85%;
+        top: 80%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
