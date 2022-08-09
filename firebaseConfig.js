@@ -51,7 +51,7 @@ const pledgeText = document.querySelectorAll('aside > section:nth-child(2) div p
 const inputs = document.querySelectorAll("aside > section:nth-child(2) input:first-child[name = 'pledge']");
 
 //DYNAMICALLY CHANGING THE DATA AND VALUES BASED ON VIEWPORTS AND EVENT LISTENERS
-progressBar.style.width = '50%';
+progressBar.style.width = '0%';
 menu.addEventListener('click', () => {
    menu_items.classList.toggle('show');
    menu_close.classList.toggle('show');
